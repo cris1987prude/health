@@ -1,1 +1,79 @@
 # health
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MEDCLICK - Atención Médica Digital</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-white text-gray-800">
+  <!-- Header -->
+  <header class="bg-blue-700 text-white p-6">
+    <div class="container mx-auto flex justify-between items-center">
+      <h1 class="text-3xl font-bold">MEDCLICK</h1>
+      <nav class="space-x-4">
+        <a href="#servicios" class="hover:underline">Servicios</a>
+        <a href="#nosotros" class="hover:underline">Nosotros</a>
+        <a href="#contacto" class="hover:underline">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="bg-gray-100 py-16 text-center">
+    <div class="container mx-auto">
+      <h2 class="text-4xl font-bold mb-4">Transformando el acceso a la salud en Perú</h2>
+      <p class="mb-6 text-lg">MEDCLICK conecta a los pacientes con médicos y centros de salud verificados, facilitando decisiones informadas y citas en tiempo real.</p>
+      <a href="#contacto" class="bg-blue-600 text-white py-2 px-4 rounded hover:bg-blue-800">Contáctanos</a>
+    </div>
+  </section>
+
+  <!-- Servicios -->
+  <section id="servicios" class="py-12 bg-white">
+    <div class="container mx-auto text-center">
+      <h3 class="text-3xl font-semibold mb-6">Nuestros Servicios</h3>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="p-6 border rounded shadow">
+          <h4 class="text-xl font-bold mb-2">Citas Médicas Online</h4>
+          <p>Reserva citas con profesionales de la salud certificados, según tu especialidad y ubicación.</p>
+        </div>
+        <div class="p-6 border rounded shadow">
+          <h4 class="text-xl font-bold mb-2">Calificaciones Reales</h4>
+          <p>Lee opiniones verificadas de otros pacientes para elegir con confianza.</p>
+        </div>
+        <div class="p-6 border rounded shadow">
+          <h4 class="text-xl font-bold mb-2">Historial Médico Seguro</h4>
+          <p>Accede a tu información médica digital desde cualquier dispositivo, de forma segura.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Nosotros -->
+  <section id="nosotros" class="py-12 bg-gray-50">
+    <div class="container mx-auto text-center">
+      <h3 class="text-3xl font-semibold mb-6">Sobre MEDCLICK</h3>
+      <p class="max-w-3xl mx-auto">MEDCLICK nace como una respuesta innovadora ante la falta de acceso a servicios médicos de calidad en el Perú. Brindamos una plataforma centralizada, segura y fácil de usar que empodera a los pacientes y mejora la gestión de la salud.</p>
+    </div>
+  </section>
+
+  <!-- Contacto -->
+  <section id="contacto" class="py-12 bg-white">
+    <div class="container mx-auto max-w-xl text-center">
+      <h3 class="text-3xl font-semibold mb-6">Contáctanos</h3>
+      <form class="space-y-4">
+        <input type="text" placeholder="Nombre" class="w-full border p-2 rounded">
+        <input type="email" placeholder="Correo electrónico" class="w-full border p-2 rounded">
+        <textarea placeholder="Mensaje" class="w-full border p-2 rounded h-32"></textarea>
+        <button class="bg-blue-600 text-white py-2 px-6 rounded hover:bg-blue-800">Enviar</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-blue-700 text-white text-center py-4">
+    <p>&copy; 2025 MEDCLICK - Todos los derechos reservados</p>
+  </footer>
+</body>
+</html>
